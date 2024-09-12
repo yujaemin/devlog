@@ -2,7 +2,7 @@
   <div class="md:fixed">
     <div class="md:block flex justify-center items-center">
       <nuxt-img
-        :src="author.author_image"
+        src="https://yujaemin.github.io/devlog/my.jpg"
         loading="lazy"
         alt="me"
         class="shadow-xl md:h-60 md:w-60 h-40 w-40 rounded-full"

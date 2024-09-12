@@ -4,7 +4,9 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content", "nuxt-svgo", "@nuxt/image", "@nuxtjs/tailwindcss"],
   css: ["@/assets/css/main.css"],
   components: true,
-
+  app: {
+    baseURL: '/devlog', // GitHub Pages에서 제공되는 기본 경로
+  },
   content: {
     markdown: {
       anchorLinks: false,
@@ -25,9 +27,9 @@ export default defineNuxtConfig({
         'c',
         'cpp',
         'java',
-        'javascript'
-      ]
-    }
+        'javascript',
+      ],
+    },
   },
 
   compatibilityDate: '2024-09-10',

@@ -12,6 +12,6 @@ const siteMetaInfo = {
   siteLogo: "../assets/author.png",
   image: "~/assets/author.png",
   socialBanner: "/static/images/twitter-card.png",
-};
+}
 
-export default siteMetaInfo;
+export default siteMetaInfo
