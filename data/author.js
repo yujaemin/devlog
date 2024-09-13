@@ -22,6 +22,7 @@ import S3Icon from "assets/devicon/aws-s3.svg?component"
 import EC2Icon from "assets/devicon/aws-ec2.svg?component"
 import DockerIcon from "assets/devicon/docker.svg?component"
 import FlutterIcon from "assets/devicon/flutter.svg?component"
+import DartIcon from "assets/devicon/dart.svg?component"
 
 // Timeline
 import Home from "assets/icons/home.svg?component"
@@ -62,6 +63,11 @@ const author = {
             {
                 name: "Python",
                 icon: PythonIcon,
+                description: "",
+            },
+            {
+                name: "Dart",
+                icon: DartIcon,
                 description: "",
             },
         ],
