@@ -210,7 +210,7 @@ const author = {
             icon: Academy,
             title: "에스코어(주)",
             subtitle: "2015.02 - 2020.01",
-            description: "mySingle(삼성 그룹웨어) 관리자기능 개발 및 운영, 제품 평판 분석 시스템 개발",
+            description: "Knox Portal(삼성 그룹웨어) 관리자기능 개발 및 운영, 제품 평판 분석 시스템 개발",
         },
         {
             icon: Academy,
